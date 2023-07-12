@@ -1,0 +1,22 @@
+#formrules {
+  text-align: center;
+  padding-top: 5rem;
+  line-height: 2rem;
+}
+
+#regtasks {
+  display: block;
+}
+
+.lining {
+  text-decoration: line-through;
+}
+
+form input {
+  width: 15rem;
+  text-align: center;
+}
+
+form button {
+  margin-left: 1rem;
+}
