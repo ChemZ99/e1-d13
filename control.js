@@ -17,6 +17,7 @@ const addtask = SubmitEvent => {
 
   let removebutton = document.createElement("button");
   removebutton.innerText = "delete";
+  removebutton.classList.add("button-49");
   let taskcontainer = document.createElement("ul");
   let taskstring = document.createElement("li");
   taskstring.innerText = task;
@@ -30,3 +31,10 @@ const addtask = SubmitEvent => {
     taskstring.classList.toggle("lining");
   });
 };
+
+const personalbutton = document.querySelector("form a");
+const formtarget = document.querySelector("form");
+
+console.log(personalbutton);
+
+personalbutton.onclick = () => formtarget.submit();
